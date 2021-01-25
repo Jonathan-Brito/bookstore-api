@@ -3,12 +3,14 @@ package com.jonathan.brito.bookstore.service;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.jonathan.brito.bookstore.domain.Categoria;
 import com.jonathan.brito.bookstore.domain.Livro;
 import com.jonathan.brito.bookstore.repositories.CategoriaRepository;
 import com.jonathan.brito.bookstore.repositories.LivroRepository;
 
+@Service
 public class DBService {
 
 	@Autowired
